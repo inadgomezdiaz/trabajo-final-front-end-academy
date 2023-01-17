@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto final</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="contendor-cv" class="container ">
+    <div id="separador-cv" class="row">
+      <div class="col-12 contenedor-header ">
+        <header class="header">
+          <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="image" class="imagen-de-perfil" />
+          <h1 class="nombre-cv">Alex May</h1>
+        </header>
+      </div>
+      <div id="contendor-info-personal" class="col-12 col-lg-5 justify-content-center align-items-center ">
+        <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+          <h2 class="about-me-title aling-self-center  m-3">Informacion Personal</h2>
+          <h3 id="titulo-sobre-mi"><button id="click-me">Sobre Mi</button></h3>
+          <p class="hidden-texts" id="Text-about-me">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis quia consectetur corrupti provident
+            alias pariatur iure cum, debitis ducimus! Sequi, ad necessitatibus. Aut nobis fugiat sed recusandae
+            possimus
+            perspiciatis in.
+          </p>
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+          <h3><button id="titulo-contacto">Contacto</button></h3>
+          <ul class="hidden-texts" id="contacto-text">
+            <li><i class="fa-solid fa-location-pin"></i> 7383 Poplar Dr</li>
+            <li><i class="fa-solid fa-envelope"></i> alex.may@example.com</li>
+            <li><i class="fa-solid fa-phone"></i> (603) 731-7157</li>
+          </ul>
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+          <h3><button id="titulo-estudios">Estudios</button></h3>
+          <ul class="hidden-texts" id="estudios-text">
+            <li><i class="fa-solid fa-book"></i> secundario tecnico - Tecnica alemaña - diciembre 2006</li>
+            <li><i class="fa-solid fa-book"></i> ingenieria informatica - UNSAM - Marzo 2013</li>
+          </ul>
+        </div>
+      </div>
+      <div id="contendor-skills-expericencias" class="col">
+        <div class="skills-information d-flex justify-content-center align-items-center flex-column">
+          <h2 class="titulo-skill m-3">Conocimientos</h2>
+          <h3><Button class="bot2" id="titulo-idiomas">Idiomas</Button></h3>
+          <ul id="idiomas-text" class="hidden-texts">
+            <li><i class="fa-solid fa-globe"></i> Ingles - Avanzado</li>
+            <li><i class="fa-solid fa-globe"></i> Aleman - intermedio</li>
+            <li><i class="fa-solid fa-globe"></i> Español - Nativo</li>
+          </ul>
+        </div>
+        <div class="experience-information d-flex justify-content-center align-items-center flex-column">
+          <h2><button class="bot2" id="titulo-experiencias">Experiencias</button> </h2>
+          <ul id="experiencias-text" class=" hidden-texts">
+            <li><i class="fa-solid fa-briefcase"></i> [ Jr web desinger] | 2014 - 2016 | empresa: Point web | diseño de paginas responsive</li>
+            <li><i class="fa-solid fa-briefcase"></i> [ java sr developer] - 2016 - 2021 | empresa: Microsoft | desarrollo de sorftware</li>
+          </ul>
+        </div>
+        <div class="experience-information d-flex justify-content-center align-items-center flex-column">
+          <h3><button class="bot2" id="habilidades-titulo">Habilidades</button></h3>
+          <ul id="habilidades-text" class="hidden-texts">
+            <li><i class="fa-brands fa-js"></i> Front-End : Javascript - html5 - css3 (boostrap & Talewind) - React.js </li>
+            <li><i class="fa-brands fa-node-js"></i> Backend : python - django -Node.Js</li>
+            <li><i class="fa-solid fa-database"></i> Base de datos : MYSQL - SQL Server- mongoDB</li>
+            <li><i class="fa-brands fa-microsoft"></i> Otros: Adobe Photoshop - Microsoft Excel - GitHub </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://kit.fontawesome.com/6bbbf06a2f.js" crossorigin="anonymous"></script>
+  <script src="/scrips.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
